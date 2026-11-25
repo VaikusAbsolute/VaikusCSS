@@ -1,0 +1,160 @@
+/* jester and katie's free css template - https://www.lioden.com/topic.php?id=304429485172
+This is version 3 version of their template, made based off of katie's v2 free css template 
+
+template made by jester (#187561) & katie (#106445)
+
+template edited and finalized by me (Meda #218167 on Lioden)
+
+Other credits added from original authors (jester & katie)
+“there are a lot of other codes at use here randomly strewn throughout this and various other
+codes done by the both of us.
+below is a list of ids credited with other pieces/inspiration for various things in this template
+just because a user is credited it does not mean their code is used in one specific css made with this template,
+or even present in this template. however, these are all users who have made significant contributions to css coding
+and it's almost impossible to ignore what they've done. in some way or the other, they are present in this code”
+Pandora #144118
+Kat  #94329
+tawny #251887
+Austin #43750 
+Bobcat (#79288)
+Tserin (#2230)
+Atticus (#198107)
+
+Please do not re use this code - visit the above link to find the free template by jester and Katie to make your own designs!
+
+*/
+ 
+
+ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://sharedalbums.b-cdn.net/resized/CV86afd0438p9H8iYSS5zEAfiWzVG2R3.jpg?r=0&md=800') center center fixed;
+background-size: 100%;
+Background-attachment: fixed } }
+
+
+
+/* @media screen and (max-width: 600px){
+body {
+background: #80C4A6;
+background-size: cover;
+color: #80C4A6; } } */
+
+ 
+::-webkit-scrollbar {
+width: 7px;
+height: 7px; }
+::-webkit-scrollbar-track {
+background: #4C2A38;}
+::-webkit-scrollbar-thumb {
+background: #C596AA; } 
+ 
+
+h1 {
+color: #DFD6E1 !important;
+font-size: 64px;
+text-align: center !important;
+font-family: 'MonAlt', bold;}
+
+h2 {
+color: # !important;
+font-size: 24px;}
+
+h3 {
+color:#DFD6E1  !important;
+font-size: 18px;
+font-family: 'MonAlt';}
+
+   
+.container.main {
+background-color: rgba(153,122,179, 0.5);
+background-image: url("https://www.transparenttextures.com/patterns/dust.png");
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; } 
+ 
+.topbar {
+background: linear-gradient(#7F8199, #454969),  !important;
+color: #6D68B1 !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+background:linear-gradient(#7F8199, #454969) !important;
+color: #CAC5E3 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.navbar li a:hover {
+background: #7F8199 !important;
+color: #CAC5E3 !important; }
+
+.navbar-toggle {
+border: none !important;
+background: #CAC5E3 !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
+
+
+.breadcrumb {
+background: #F3F0F4 !important;
+color: #F3F0F4 !important;
+border: none !important;
+border-radius: 0px !important;} 
+.breadcrumb .active {
+color: #8F7F59; }
+
+ 
+/*.alert {
+background: #80C4A6 !important;
+color: #000000 !important;
+border: none !important;
+border-radius: 0px !important;
+text-align: center !important;  }*/
+
+.alert-warning {
+background: #9E5739 !important;
+color: #000000 !important;}
+
+.alert-danger {
+background: #9E5739 !important;
+color: #000000 !important;}
+
+.alert-success {
+background: #A087A6 !important;
+color: #A087A6 !important;}
+
+	
+/* CREDIT - no touchy this part, the code will work just fine */
+ 
+.breadcrumb::after {
+content: "css template by katie (#106445) & jester (#187561)";
+color: #80C4A6;
+position: absolute;
+right: 13%;
+z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+
