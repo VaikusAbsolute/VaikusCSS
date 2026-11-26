@@ -1,0 +1,15 @@
+.container {
+  position: relative; /* Keeps an absolute pseudo-element contained inside */
+}
+
+.commentBox::before {
+  content: "";
+ position: center, absolute;
+  width: 400px;
+  height: 200px;
+  background-color:rgba(181, 198, 199, .5);
+ border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACQklEQVR4Aeza0W6DMAyFYbr3f+fV3MVWleTQAwrln6jUzI7rfFgVk/a36T//saV9xTJdbewO71Pzsag9x6/mryOg89UfmAmo+aYDugDoK3poX7FMVxu7w/vUfCxqz/Gr+YsJnbeaygR0imk+CdB5q6nMI6D1OU1dTzVmTFL7q/lSK0dApQ94WjKg5jsO6Amgo++MGq8t1Oe20bruP3s96qfGaz+j86c4E1r5vlwD+iVg3Q5oFflyvYOOvkPqR6j5df/qa/V8KX8HXf2At+oPUPPtAvQE0PQcZa7/hHLJjwk133JAATULmMtdNaHmttctB6j53gAKqFnAXG5mQtPfqubPv0M56fwzoHc49DI9Amq+FYACahYwl2NCATULmMsxoQ8CNR/1mnJMqNkZUEDNAuZyTCigZgFzOSYUULOAuRwTCqhZwFyOCQXULGAu92sTaubRywGqm3V3ANrl0YOA6mbdHYB2efQgoLpZdwegXR49CKhu1t0xA5r+h7xb7TeD0vlnQH+T6aRTAWqGBRRQs8C2WQsyoVbObQMUULOAudw+oa+o2b5iySUItHavHVTYS+pIANCRkBgHVAQbpe+g0t+qUVDNjy23utTzpfwd9FanXb1ZQM13CNATQNNz1If6o3j6Don9o3WkXHqN+qnx2tyn87c5Kc6EtjSG94AaENsSgLYahvdHQNN3RvSgrmPLpZfaX82Xmj0CKn3A05IBNd9xQBcAHT231fjq60pa+63x7poJ7fLoQUB1s+4OQLs8evANAAD//zwJozEAAAAGSURBVAMAnK/QdTKHb4MAAAAASUVORK5CYII=') 28 /  28px / 0 round;
+    border-width:  28px;
+    border-style:  solid; 
+overflow-y: auto;
+}
